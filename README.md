@@ -7,10 +7,15 @@ After installing [Vagrant](http://vagrantup.com/), create and boot the VM:
 SSH to the VM:
 
 	vagrant ssh
+Find your VM's IP address:
+
+	ifconfig
 
 Run your app:
 
 	fab run
+
+Finally, navigate (on your hosting machine) to [http://localhost:5000](http://localhost:5000)
 
 ## Notes
 
